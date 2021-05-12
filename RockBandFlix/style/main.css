@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container-header{
+    display: flex;
+    align-items: center;
+    background: black; 
+    height: 100px;
+    
+      
+}
+
+.logo{
+    margin-left: 25px;
+    color: rgb(212, 1, 1);;
+    font-size: 40px;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    padding-right: 250px;
+    display: flex;
+}
+
+.rock{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding-right: 10px;
+    background-image: url(../img/rock1mini.jpg);
+}
+
+.link-nav{
+    padding-right: 300px;      
+}   
+
+.link-nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0 5px 0 5px;
+    font-family: 'Arial black';
+    font-size: 15px;    
+    border: 1px solid gray;
+    background: rgb(109, 40, 28);
+    border-radius: 10px 0;
+}
+
+.search {
+   display: flex;
+   border: 1px solid gray;
+   margin-top: 15px;
+}
+
+.fa-search{
+    background: rgb(212, 1, 1);
+    color: white;
+    width: 30px;
+    height: 30px;
+    padding: 6px;     
+}
+
+
+.pesquisar{
+    height: 30px;
+    width: 200px;
+}   
+/*Ininio das fotos Maiores*/
+
+
+.division{
+    display: flex;
+}
+
+
+.division-left{
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;   
+}
+
+
+.division-right{
+    display: flex;
+    flex-direction: column;
+
+    width: 50%;   
+    
+}
+.row-2{
+    height: 10px;
+    background: black;
+}
+
+/* Inicio do carrosel*/
+
+.carrosel-filmes{ 
+    background:black
+}
+
+.item{
+    padding-top: 10px;
+}
+
+/*Inicio do roda pé*/
+
+footer{
+    display: flex;    
+    background: black;
+    color: white;
+    text-align: center;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+
+
+
+
+
+
+
+    
+
